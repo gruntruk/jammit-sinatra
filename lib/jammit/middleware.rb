@@ -6,6 +6,8 @@ module Jammit
 
   class Middleware
 
+    PUBLIC_ROOT = "/public"
+    
     VALID_FORMATS   = [:css, :js]
 
     SUFFIX_STRIPPER = /-(datauri|mhtml)\Z/
